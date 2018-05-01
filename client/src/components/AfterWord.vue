@@ -5,9 +5,9 @@
       <div class="row">
         <div class="section-header text-center">
           <h2 style="margin-bottom: 100px" class="title cursive">{{howPageWasMade}}</h2>
-          <p v-if="language==='en'" class="white-text">This page was made with Vue.js that takes most of the displayed data from Spring Boot REST API that runs on Amazon Web Service. The Spring application uses a H2 in memory database. All of the pictures were taken from pixabay.com.
+          <p v-if="language==='en'" class="white-text">This page was made with Vue.js that takes most of the displayed data from Spring Boot REST API that runs on Amazon Web Service. The Spring application uses a H2 in memory database. All of the pictures were taken from unsplash.com.
           </p>
-          <p v-if="language==='et'" class="white-text">See leht on tehtud kasutades Vue.js raamistiku. Enamus kuvatud infot on võetud Spring Boot REST API-st, mis jookseb Amazon Web Serviceis. Springi rakendus kasutab H2 mälupõhist andmebaasi. Kõik pildid on võetud pixabay.com lehelt.
+          <p v-if="language==='et'" class="white-text">See leht on tehtud kasutades Vue.js raamistiku. Enamus kuvatud infot on võetud Spring Boot REST API-st, mis jookseb Amazon Web Serviceis. Springi rakendus kasutab H2 mälupõhist andmebaasi. Kõik pildid on võetud unsplash.com lehelt.
           </p>
         </div>
         <div class="section-header text-center">

@@ -18,7 +18,7 @@
           <li v-if="language==='et'"><a href="#studying" v-smooth-scroll>Mida hetkel õpin</a></li>
           <li v-if="language==='et'"><a href="#usedTech" v-smooth-scroll>Kasutatud tehnoloogiad</a></li>
           <li v-if="language==='et'"><a href="#hobbies" v-smooth-scroll>Hobid</a></li>
-          <li v-if="language==='et'"> <a href="#contact" v-smooth-scroll="{ duration: 1000, offset: -50 }">Kontakt</a></li>
+          <li v-if="language==='et'"> <a href="#contact" v-smooth-scroll>Kontakt</a></li>
 
           <li v-if="language==='en'" class="active"  v-smooth-scroll><a href="#">Home</a></li>
           <li v-if="language==='en'"><a href="#completedCourses" v-smooth-scroll>Completed Courses</a></li>
@@ -51,9 +51,6 @@ export default {
   },
 
   methods: {
-    notify () {
-      this.$popup({ message: 'A message' })
-    },
     changeLanguageEt () {
       this.$store.dispatch('setLanguage', 'et')
       this.$router.replace('/')

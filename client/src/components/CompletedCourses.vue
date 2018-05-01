@@ -91,33 +91,4 @@ export default {
     margin-bottom: 0;
   }
 
-  .slide-fade-enter-active {
-    transition: all .2s ease;
-  }
-
-  .slide-fade-leave-active {
-    transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
-  }
-
-  .slide-fade-enter, .slide-fade-leave-to
-    /* .slide-fade-leave-active below version 2.1.8 */
-  {
-    transform: translateX(10px);
-    opacity: 0;
-  }
-
-  .list-item {
-    display: inline-block;
-    margin-right: 10px;
-  }
-
-  .list-enter-active, .list-leave-active {
-    transition: all 1s;
-  }
-
-  .list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */
-  {
-    opacity: 0;
-    transform: translateY(30px);
-  }
 </style>

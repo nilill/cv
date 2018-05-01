@@ -1,4 +1,3 @@
-
 .cursive {
   font-family: 'Oswald', sans-serif;
   text-transform: none;
@@ -9,8 +8,6 @@
   width: 90vw;
   margin-left: 5vw;
   margin-right: 5vw;
-
-
 }
 
 body {
@@ -19,7 +16,6 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   color: #f0eed9;
-
 }
 
 .fixed-bg {
@@ -29,14 +25,10 @@ body {
    background-repeat: no-repeat;
    background-position: center center;
  }
-
-
 .fixed-bg.fixed-bg--1 {
-  //background-image: url("http:///kubon.heteml.jp/img/pict-top1.png");
   // About
   background-image: url("https://images.unsplash.com/photo-1460667069066-7514997310c9?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=383e36611d4755043ebe910fb2d268a2&auto=format&fit=crop&w=1355&q=80");
 }
-
 
 .fixed-bg.fixed-bg--3 {
   background-image: url("https://images.unsplash.com/photo-1422207258071-70754198c4a2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b3ead7d2589717f5e1449373f47426e2&auto=format&fit=crop&w=1341&q=80");
@@ -44,7 +36,6 @@ body {
 }
 
 .fixed-bg.fixed-bg--4 {
-
   background-image: url("https://images.unsplash.com/photo-1487215078519-e21cc028cb29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88d1d36d47ef07d4fb7623337e0e607e&auto=format&fit=crop&w=1350&q=80");
 }
 

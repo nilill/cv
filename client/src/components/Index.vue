@@ -22,17 +22,9 @@ export default {
     return {
     }
   },
-
   methods: {
-
     setLanguage (language) {
       this.$store.dispatch('setLanguage', language)
-    },
-    goToEnglishCV () {
-      this.$router.replace({path: '/about'})
-    },
-    goToEstonianCV () {
-      this.$router.replace({path: '/about'})
     }
   }
 }
